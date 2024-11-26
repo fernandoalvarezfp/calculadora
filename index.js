@@ -1,2 +1,2 @@
-import { suma,resta,divide,multiplica } from "./src/calculadora.js"
-console.log(suma(2,3));
+const { suma, resta, divide, multiplica } = require("./src/calculadora.js");
+console.log(suma(2, 3));
